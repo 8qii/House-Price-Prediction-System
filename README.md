@@ -27,7 +27,7 @@ Welcome to the **House Price Prediction System**, an innovative AI-powered solut
 
 ## 🏗️ System Architecture
 
-The system is designed for modularity and scalability. Below is a high-level overview of the architecture:
+The system is designed for modularity and scalability. Below is the corrected flowchart illustrating the architecture:
 
 ```mermaid
 flowchart TD
@@ -36,9 +36,9 @@ flowchart TD
     C --> D[Entity Extraction (Gemini)]
     D --> E[RAG + Re-ranking]
     E --> F[Random Forest Model]
-    F -->|Prediction| G[Response]
-    E -->|Similar Listings| G
-    D -->|General Queries| H[Gemini Conversational Output]
+    F --> G[Response]
+    E --> G[Similar Listings]
+    D --> H[Gemini Conversational Output]
     H --> G
     G --> B
 ```
@@ -116,3 +116,4 @@ We’re excited about the possibilities! Planned enhancements include:
 - **Hoàng Anh Quân** | Project Owner
 
 ---
+
