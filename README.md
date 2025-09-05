@@ -33,7 +33,7 @@ The system is designed for modularity and scalability. Below is the corrected fl
 flowchart TD
     A[User Query] --> B[Frontend UI]
     B --> C[Backend]
-    C --> D[Entity Extraction (Gemini)]
+    C --> D[Entity Extraction]
     D --> E[RAG + Re-ranking]
     E --> F[Random Forest Model]
     F --> G[Response]
@@ -116,6 +116,7 @@ We’re excited about the possibilities! Planned enhancements include:
 - **Hoàng Anh Quân** | Project Owner
 
 ---
+
 
 
 
