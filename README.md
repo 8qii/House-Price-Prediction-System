@@ -1,19 +1,19 @@
-# 🏠 House Price Prediction System
+# House Price Prediction System
 
 Welcome to the **House Price Prediction System**, an innovative AI-powered solution that blends cutting-edge **Machine Learning** and **Large Language Models (LLM)** to deliver precise house price predictions and intelligent property search. Powered by **Random Forest**, **RAG (Retrieval-Augmented Generation)**, and **Gemini 2.5 Pro**, this system offers a seamless and conversational experience for home buyers and real estate enthusiasts.
 
 ---
 
-## 🌟 What This System Offers
+## What This System Offers
 
-- 📊 **Accurate Price Predictions**: Leverage a robust Random Forest model to predict house prices based on structured property data.
-- 🔍 **Smart Property Search**: Use RAG with re-ranking to retrieve and rank similar properties for context-aware recommendations.
-- 💬 **Conversational AI**: Engage with a Gemini 2.5 Pro-powered backend for natural language queries, explanations, and suggestions.
-- 🚀 **User-Friendly Interface**: A clean frontend UI to query properties, view predictions, and explore similar listings.
+-  **Accurate Price Predictions**: Leverage a robust Random Forest model to predict house prices based on structured property data.
+-  **Smart Property Search**: Use RAG with re-ranking to retrieve and rank similar properties for context-aware recommendations.
+-  **Conversational AI**: Engage with a Gemini 2.5 Pro-powered backend for natural language queries, explanations, and suggestions.
+-  **User-Friendly Interface**: A clean frontend UI to query properties, view predictions, and explore similar listings.
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - **Exploratory Data Analysis (EDA)**: Dive deep into property data with visualizations of distributions, correlations, and feature importance.
 - **Preprocessing Pipeline**: Automated data cleaning, encoding, and feature engineering for high-quality predictions.
@@ -25,14 +25,14 @@ Welcome to the **House Price Prediction System**, an innovative AI-powered solut
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The system is designed for modularity and scalability. Below is the corrected flowchart illustrating the architecture:
 
 ```mermaid
 flowchart TD
     A[User Query] --> B[Frontend UI]
-    B --> C[Backend API (FastAPI)]
+    B --> C[Backend (FastAPI)]
     C --> D[Entity Extraction (Gemini)]
     D --> E[RAG + Re-ranking]
     E --> F[Random Forest Model]
@@ -43,7 +43,7 @@ flowchart TD
     G --> B
 ```
 
-## ⚙️ Installation
+##  Installation
 
 Get started with the system in just a few steps:
 
@@ -67,7 +67,7 @@ Get started with the system in just a few steps:
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 1. **Start the Backend**:
    Launch the FastAPI server:
@@ -94,7 +94,7 @@ Get started with the system in just a few steps:
 
 ---
 
-## 📊 Results
+##  Results
 
 - **Random Forest Performance**: Achieves high accuracy on the processed dataset for reliable price predictions.
 - **RAG + Re-ranking**: Significantly improves the relevance of retrieved properties.
@@ -102,7 +102,7 @@ Get started with the system in just a few steps:
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 We’re excited about the possibilities! Planned enhancements include:
 - Integrating **Graph Neural Networks (GNN)** to model spatial relationships between properties.
@@ -111,9 +111,10 @@ We’re excited about the possibilities! Planned enhancements include:
 
 ---
 
-## 👨‍💻 Authors
+##  Authors
 
 - **Hoàng Anh Quân** | Project Owner
 
 ---
+
 
