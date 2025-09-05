@@ -32,7 +32,7 @@ The system is designed for modularity and scalability. Below is the corrected fl
 ```mermaid
 flowchart TD
     A[User Query] --> B[Frontend UI]
-    B --> C[Backend (FastAPI)]
+    B --> C[Backend]
     C --> D[Entity Extraction (Gemini)]
     D --> E[RAG + Re-ranking]
     E --> F[Random Forest Model]
@@ -116,5 +116,6 @@ We’re excited about the possibilities! Planned enhancements include:
 - **Hoàng Anh Quân** | Project Owner
 
 ---
+
 
 
